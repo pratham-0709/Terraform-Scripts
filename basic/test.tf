@@ -9,8 +9,8 @@ terraform {
 
 provider "aws" {
   region     = "ap-south-1"
-  access_key = "AKIA2TD37DPIFXXD6VTP"
-  secret_key = "sEeoCiHPgDADXrnYIpUFJ8s8yis0u3DmnohhzuOK"
+  access_key = "Your Access key of AWS Account"
+  secret_key = "Your Secret Key of AWS Account"
 }
 
 resource "aws_instance" "task1" {
